@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TrainTicket">
+
+
+
+
+
+    <TextView
+        android:id="@+id/textView102"
+        android:layout_width="82dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="18dp"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/etname4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:hint="Enter Name"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView112"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/etage4"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="24dp"
+        android:text="Age" />
+
+    <EditText
+        android:id="@+id/etage4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etname4"
+        android:layout_below="@+id/textView102"
+        android:ems="10"
+        android:hint="Enter Age"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView122"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView112"
+        android:layout_marginTop="142dp"
+        android:text="From" />
+
+    <EditText
+        android:id="@+id/etsource4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etname4"
+        android:layout_alignTop="@+id/textView122"
+        android:ems="10"
+        android:hint="Enter Source"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView142"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView112"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="184dp"
+        android:text="To" />
+
+    <EditText
+        android:id="@+id/etdestination4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView142"
+        android:layout_alignStart="@+id/etname4"
+        android:ems="10"
+        android:hint="Ener Destination"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btngetfare4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView112"
+        android:layout_marginBottom="141dp"
+        android:text="Get Fare" />
+
+    <EditText
+        android:id="@+id/etfare4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/btngetfare4"
+        android:layout_marginEnd="23dp"
+        android:ems="10"
+        android:hint="Rs 0.00"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnTrainBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="86dp"
+        android:text="Book" />
+
+    <TextView
+        android:id="@+id/textView162"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView112"
+        android:layout_marginBottom="231dp"
+        android:text="Schedule" />
+
+    <TextView
+        android:id="@+id/getShedule4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView162"
+        android:layout_toEndOf="@+id/btnTrainBook"
+        android:text="12:00 Pm to 6 Am" />
+
+</RelativeLayout>

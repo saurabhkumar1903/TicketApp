@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TicketApp</string>
+    <string-array name="Carriers">
+        <item>Jet Aiways</item>
+        <item>Air India</item>
+        <item>Indigo</item>
+        <item>Kingfisher Airlines</item>
+    </string-array>
+</resources>
